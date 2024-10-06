@@ -16,7 +16,7 @@ MongoClient.connect(process.env.MONGO_URI)
     console.log("Error while connecting to mongoDB", err);
   });
 
-console.log(process.env);
+// console.log(process.env);
 
 const port = 6000;
 app.listen(port, () => {
